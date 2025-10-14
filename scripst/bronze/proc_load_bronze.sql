@@ -1,7 +1,10 @@
-exec bronze.load_bronze
+/* 
+==============================================================
+stored procedur= loads bronze layer (source--->bronze)
 
-
-
+Usage example = exec bronze.load_bronze
+===============================================================
+*/
 Create or alter procedure bronze.load_bronze as 
 begin
 declare @start_time datetime, @end_time datetime, @batch_start_time datetime, @batch_end_time datetime;
