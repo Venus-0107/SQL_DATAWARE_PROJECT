@@ -1,3 +1,13 @@
+/* 
+==============================================================
+stored procedur= loads silver layer (bronze--->silver)
+Transformation performed= data cleaning,data enrichment,coloumns derivatig.
+
+Usage example = exec silver.load_bronze
+===============================================================
+*/
+
+
 exec silver.load_silver
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
