@@ -1,3 +1,12 @@
+/* 
+
+DDL : creating silver tabel
+script : this script creates the tables in the 'silver' schema, dropping existing tables if they are already existing.
+
+*/
+
+
+
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
 DROP TABLE silver.crm_cust_info;
 GO
